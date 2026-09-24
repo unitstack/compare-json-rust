@@ -1,5 +1,7 @@
 # compare-json
 
+[![crates.io](https://img.shields.io/crates/v/compare-json.svg)](https://crates.io/crates/compare-json)
+
 Rust port of [`compare-json`](https://github.com/unitstack/compare-json) — **structured JSON comparison**: find what changed between two JSON values, with control over how keys, values, and arrays are matched.
 
 > Online playground: **[comparejson.com](https://comparejson.com)**
