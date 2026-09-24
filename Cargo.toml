@@ -1,0 +1,24 @@
+[package]
+name = "compare-json"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "JSON comparison library and CLI tool"
+keywords = ["json", "compare", "diff"]
+
+[dependencies]
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+clap = { version = "4.5", features = ["derive"] }
+
+[[bin]]
+name = "compare-json"
+path = "src/bin/cli.rs"
+
+[dev-dependencies]
+tempfile = "3"
+serde_json = "1.0"
+
+[lib]
+name = "compare_json"
+path = "src/lib.rs"
